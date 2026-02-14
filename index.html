@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ریحانه، ولنتاین من میشی؟ 💖</title>
+
+    <link rel="stylesheet" href="style2.css" />
+
+    <meta name="description" content="یه سورپرایز کوچولو برای ریحانه 💕" />
+    <meta name="keywords" content="ولنتاین, عشق, ریحانه" />
+    <meta name="author" content="Someone Who Loves Reyhaneh" />
+  </head>
+
+  <body>
+    <div class="flex f-aps">
+      <p>
+        ساخته شده با عشق بی‌نهایت فقط برای ریری جون 💗
+      </p>
+    </div>
+
+    <h1 class="headerText" id="wedate">
+      ریحانه ... ولنتاین من میشی؟ 🥺💞
+    </h1>
+
+    <img
+      class="image"
+      src="https://github.com/NikhilMarko03/resources/blob/main/happy1.gif?raw=true"
+      alt="love"
+      id="mainImg"
+    />
+
+    <div class="flex" id="btns">
+      <button
+        class="button"
+        id="yes"
+        onmouseenter="happy()"
+        onmouseleave="normal()"
+        onclick="yes()"
+      >
+        آرهههههه 🥰💖
+      </button>
+
+      <button
+        class="button"
+        id="no"
+        onmouseenter="angry()"
+        onmouseleave="normal()"
+        onclick="no()"
+      >
+        نهههه 😭
+      </button>
+    </div>
+
+    <div class="absImages" id="absImg">
+      <img class="image1" src="https://github.com/NikhilMarko03/resources/blob/main/heart.gif?raw=true" alt="heart" />
+      <img class="image1" src="https://github.com/NikhilMarko03/resources/blob/main/heart.gif?raw=true" alt="heart" />
+      <img class="image1" src="https://github.com/NikhilMarko03/resources/blob/main/heart.gif?raw=true" alt="heart" />
+      <img class="image1" src="https://github.com/NikhilMarko03/resources/blob/main/heart.gif?raw=true" alt="heart" />
+      <img class="image1" src="https://github.com/NikhilMarko03/resources/blob/main/heart.gif?raw=true" alt="heart" />
+    </div>
+
+    <!-- مودال وقتی Yes بزنه -->
+    <div class="model" id="model2">
+      <audio id="happyMusic" style="opacity: 0" controls loop>
+        <source src="./resources/happy.mp3" type="audio/mp3" />
+      </audio>
+
+      <div class="model-content">
+        <p class="modelText" id="modelText2">
+          ریحانهههههه 😭💖  
+          دوستت دارم بی‌نهایت، بیشتر از همه چی 💞✨
+        </p>
+
+        <img
+          class="modelImg"
+          id="modelImg2"
+          src="https://takelessons.com/blog/wp-content/uploads/2013/07/happy-cat.gif"
+          alt="happy"
+        />
+
+        <button
+          class="button"
+          onmouseenter="happy()"
+          onmouseleave="normal()"
+          onclick="ly2()"
+        >
+          منم دوستت دارم 😘💗
+        </button>
+      </div>
+    </div>
+
+    <!-- مودال وقتی No بزنه -->
+    <div id="model" class="model">
+      <audio id="sadMusic" style="opacity: 0" controls loop>
+        <source src="./resources/sad.mp3" type="audio/mp3" />
+      </audio>
+
+      <div class="model-content">
+        <p class="modelText" id="modelText">
+          ریحانه مطمئنییی؟ 🥺  
+          بدون تو که نمی‌تونم 😭💔
+        </p>
+
+        <img
+          class="modelImg"
+          id="modelImg"
+          src="https://media1.tenor.com/images/9413ffc5a11722a3cc456a88810750bd/tenor.gif?itemid=14193216"
+          alt="sad"
+        />
+
+        <div class="flex">
+          <button
+            class="button"
+            onmouseenter="happy()"
+            onmouseleave="normal()"
+            onclick="yes()"
+          >
+            باشه باشه آره 😅💖
+          </button>
+
+          <button
+            class="button"
+            onmouseenter="angry()"
+            onmouseleave="normal()"
+            onclick="no()"
+          >
+            نههههه 😭
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="main2.js"></script>
+  </body>
+</html>
